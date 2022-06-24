@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+html,body{
+	overflow:visible;
+
+	background-color:black;
+	/* background-size:cover; */
+	 min-height:100vh; 
+}
+.NaviBar{
+	overflow:hidden;
+	background-color:#e9e9e9;
+	
+}
+
+.restBody{
+	overflow:visible;
+
+	background-color:black;
+	/* background-size:cover; */
+	/* min-height:100vh; */
+}
+.rightContainer, .leftContainer{
+	margin-left:30%;
+	margin-top:8%;
+	border:solid;
+	width:500px;
+	height:500px;
+	padding:100px;
+}
+
+
+.error{
+	color:red;
+	font-style:bold;
+}
+
+/* ============== VIDEOS ============ */
+.videoWrapper{
+	position:relative;
+	/* padding-bottom:56.25%; */
+	padding-top:25px;
+	padding-bottom:30%;
+	
+	
+} 
+.videoWrapper iframe{
+	position:absolute;
+	margin-left:25%;
+	height:85%;
+	width:45%;
+	
+}
+
+.formShow{
+	margin-left:25%;
+}
+
+/* ===============video comments======== */
+.videoComments{
+	margin-left:15%;
+	padding-bottom:20%;
+	
+}
+.commBorder{
+	border-style:solid;
+	width:70%;
+	padding:20px;
+	display:flex;
+	align-content:center;
+	
+}
+.authorShow{
+	font-size:25px;
+	color:#707aa3;
+}
+.commentShow{
+	margin-left:4%;
+	margin-top:1%;
+	font-size:20px;
+	color:#9fa14b;
+	
+}
+
+/* ==================search show jsp =========  */
+.searchShow{
+	position:relative;
+	margin-left:35%;
+	margin-top:20px;
+	overflow:visible;
+	
+}
+
+
+
+
+
+/* =================================== */
+.infoSection{
+	position:relative;
+	display:flex;
+	color:white;
+	margin-left:25%;
+	max-width:60%; 
+	justify-content:space-between;
+}
+.summaryShow{
+	position:relative;
+	color:grey;
+	margin-left:25%;
+}
+.infoSection button{
+	
+	margin-left:20px;
+} 
+.titleShow{
+	font-size:30px;
+}
+
+.videoTitle{
+	color:grey;
+	text-decoration: none;
+}
+.title{
+	font-size:20px;
+}
+.both{
+	display:flex;
+} 
+
+.left, .middle, .right{
+	 position:relative;
+	left:10%;
+	margin:20px;
+	
+	
+}
+
+
+
+
+
+
+/* ============== profile.jsp ========= */
+.bigContainer{
+	display:flex;
+}
